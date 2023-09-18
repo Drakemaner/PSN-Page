@@ -1,0 +1,74 @@
+.cardContainer{
+  position: relative;
+  border: 3px solid #3E4357;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 350px;
+  height: 500px;
+
+  display: flex;
+  margin-top: 10px;
+}
+
+.cardImg{
+  min-width: 100%;
+  min-height: 100%;
+  transition: transform .8s;
+}
+
+.cardImg:hover{
+transform: scale(1.1);
+}
+
+.labelContainer{
+  position: absolute;
+  bottom: 90px;
+  right: 0;
+}
+
+.labelValor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  font-family: "Segoe UI";
+  font-weight: bold;
+  height: 40px;
+  padding: 0px 50px;
+}
+
+.precoContainer{
+  position: absolute;
+  bottom:0px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(0,0,0,0.8);
+  padding: 10px;
+  color: antiquewhite;
+  font-family: Calibri;
+}
+
+.precoTitle{
+  margin-bottom: 3px;
+}
+
+.precoValor{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.console{
+  display: flex;
+}
+
+.console > span{
+  font-weight: bold;
+  color: aqua;
+  margin-right: 10px;
+}
